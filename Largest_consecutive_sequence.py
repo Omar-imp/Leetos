@@ -1,7 +1,7 @@
 # nums = [3, 2, 5, 8, 6, 0, 0, 0, 1]
 # S = (3, 2, 5, 8, 6, 0, 1)
 class Solution:
-    def longestConsecutive(self, nums: List[int]) -> int:
+    def longestConsecutive(self, nums: list[int]) -> int:
         S = set(nums)
         # S is a hashset which has the list(nums) stored within it. In this hashset, there are no duplicate values stored.
         max_len= 0
